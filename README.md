@@ -1,6 +1,8 @@
 # url-file-size
 Get file size from URL (in bytes) without downloading it. 0 dependencies.  
   
+`npm install url-file-size`  
+  
 Returns Promise<Number> with bytes on success.
 ```js
 const ufs = require("url-file-size");
