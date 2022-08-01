@@ -1,6 +1,6 @@
 {
   "name": "url-file-size",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Get file size by URL without downloading it",
   "main": "index.js",
   "scripts": {
