@@ -4,10 +4,10 @@ const { URL } = require('url');
 
 /**
  * Get file size from URL (in bytes) without downloading it.
- * @param  {(string|URL)} url URL to get file size from
- * @param  {Number} [timeout=10000] Timeout in milliseconds
- * @param {Number} [maxRedirects=5] Maximum number of redirects to follow
- * @return {Promise<Number>} File size in bytes
+ * @param {(string|URL)} url URL to get file size from
+ * @param {number} [timeout=10000] Timeout in milliseconds
+ * @param {number} [maxRedirects=5] Maximum number of redirects to follow
+ * @return {Promise<number>} File size in bytes
  */
 const ufs = (url, timeout = 10000, maxRedirects = 5) => {
     return new Promise((res, rej) => {
